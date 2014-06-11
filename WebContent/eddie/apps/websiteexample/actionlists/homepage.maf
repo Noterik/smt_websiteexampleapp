@@ -1,0 +1,7 @@
+setUrlTrigger(/lou/euscreen/index.html,/lou/domain/webtv/html5application/websiteexample)
+loadStyleSheet(screen,generic) // load the generic stylesheet
+setRole(screen,"mainscreen") // change the role of this screen to mainscreen
+loadContent(screen,titlepart) // load on this screen the component titlepart
+loadContent(screen,elementone)
+loadContent(screen,notification)
+setContent(screen,defaultoutput,"The homepage url was called !!")

@@ -1,0 +1,14 @@
+loadStyleSheet(screen,test) // load the generic stylesheet
+setRole(screen,"mainscreen") // change the role of this screen to mainscreen
+loadContent(screen,titlepart) // load on this screen the component titlepart
+loadContent(screen,elementone)
+loadContent(screen,notification)
+
+.when device=desktop
+setContent(screen,defaultoutput,"Website app main desktop")
+
+.when device=ipad
+setContent(screen,defaultoutput,"Website app main ipad")
+
+.when device=iphone
+setContent(screen,defaultoutput,"Website app main iphone")

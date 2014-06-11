@@ -1,0 +1,2 @@
+callServer(seturl,screen,content)
+log(test message from maf file!)
