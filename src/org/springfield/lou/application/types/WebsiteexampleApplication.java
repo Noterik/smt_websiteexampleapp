@@ -18,6 +18,7 @@ public class WebsiteexampleApplication extends Html5Application{
 	
  	public WebsiteexampleApplication(String id) {
 		super(id); 
+		
 		// map a component from a other app to a local name using a referid (import)
 		//addReferid("elementone","/websiteserviceone/defaultoutput");
 	}
